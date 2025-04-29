@@ -1,6 +1,6 @@
 uuid: 034b6390-6f0f-4dd4-9a88-5e6b9c306f5d
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -8,7 +8,7 @@ dependencies:
     - my_theme
 id: my_theme_sitebranding_2
 theme: my_theme
-region: custom_footer
+region: header
 weight: 0
 provider: null
 plugin: system_branding_block
