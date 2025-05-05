@@ -1,0 +1,12 @@
+{#
+/**
+ * Override for the 'body' field.
+ */
+#}
+{% if items %}
+  {% for item in items %}
+    <div{{ item.attributes.addClass('article__body') }}>
+      {{ item.content }}
+    </div>
+  {% endfor %}
+{% endif %}

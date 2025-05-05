@@ -1,0 +1,16 @@
+{#
+/**
+ * Custom override for entity reference fields.
+ */
+#}
+
+{% if items %}
+<div{{ attributes.addClass('article__tags') }}>
+  <h3>{{ label }}</h3>
+  <ul>
+    {% for item in items %}
+      <li class="article__tag"{{ item.attributes }}>{{ item.content }}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}

@@ -1,0 +1,10 @@
+{#
+  Custom field override for field_image on article content type.
+#}
+{% if items %}
+  {% for item in items %}
+    <div{{ item.attributes.addClass('article__image') }}>
+      {{ item.content }}
+    </div>
+  {% endfor %}
+{% endif %}
