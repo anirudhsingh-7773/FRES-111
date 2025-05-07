@@ -1,9 +1,5 @@
 .article {
 
-  &__heading {
-    width: 50%;
-  }
-
   &__image {
     width: 75%;
     margin-bottom: 2.5rem;
@@ -14,7 +10,7 @@
     margin-bottom: 2.5rem;
   }
 
-  &__tag {
+  &__tags {
     font-size: 1.2rem;
   }
 }

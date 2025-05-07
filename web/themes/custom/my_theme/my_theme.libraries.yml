@@ -3,7 +3,7 @@ global-styling:
     theme:
       css/style.css: { }
 
-node:
+article-node-styles:
   css:
     theme:
       css/custom.css: {}
