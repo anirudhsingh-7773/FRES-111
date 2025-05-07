@@ -1,0 +1,38 @@
+<article{{ attributes.addClass(classes, 'article') }}>
+
+  {# Title #}
+  {% if not page %}
+    <h2 class="article__title">
+      <a href="{{ url }}">{{ label }}</a>
+    </h2>
+  {% endif %}
+
+  {# Image #}
+  {% if content.field_image %}
+    <div class="article__image">
+      {{ content.field_image }}
+    </div>
+  {% endif %}
+
+  {# Body #}
+  {% if content.body %}
+    <div class="article__body">
+      {{ content.body }}
+    </div>
+  {% endif %}
+
+  {# URL Field #}
+  {% if content.field_url %}
+    <div class="article__link">
+      {{ content.field_url }}
+    </div>
+  {% endif %}
+
+  {# Paragraphs (Entity Reference Revisions) #}
+  {% if content.field_card_details %}
+    <div class="article__paragraphs">
+      {{ content.field_card_details }}
+    </div>
+  {% endif %}
+
+</article>
