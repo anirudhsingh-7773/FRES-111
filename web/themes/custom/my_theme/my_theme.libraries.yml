@@ -10,13 +10,13 @@ article-node-styles:
       css/custom.min.css:
         minified: true
 
-todo:
+todo-list-assets:
   css:
     theme:
       css/todo-styles.min.css:
         minified: true
   js:
-    js/todo.js: {}
+    js/todo-scripts.js: {}
   dependencies:
     - core/drupal
     - core/once
