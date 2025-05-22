@@ -1,0 +1,31 @@
+my_theme.mobile:
+  label: 'Mobile'
+  mediaQuery: '(max-width: 575.98px)'
+  weight: 0
+  multipliers:
+    - 1x
+    - 2x
+
+my_theme.tablet:
+  label: 'Tablet'
+  mediaQuery: '(min-width: 576px) and (max-width: 767.98px)'
+  weight: 1
+  multipliers:
+    - 1x
+    - 2x
+
+my_theme.desktop:
+  label: 'Desktop'
+  mediaQuery: '(min-width: 768px) and (max-width: 991.98px)'
+  weight: 2
+  multipliers:
+    - 1x
+    - 2x
+
+my_theme.large_desktop:
+  label: 'Large Desktop'
+  mediaQuery: '(min-width: 992px)'
+  weight: 3
+  multipliers:
+    - 1x
+    - 2x
